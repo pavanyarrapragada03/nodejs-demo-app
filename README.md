@@ -1,2 +1,2 @@
-# nodejs-demo-app
-CI/CD pipeline for a node.js application using github actions and docker | internship Task 1 
+This repository contains a Node.js application set up with a full CI/CD pipeline using GitHub Actions and Docker. Whenever code is pushed or a pull request is made to the main branch, the pipeline automatically builds the application, installs dependencies, and runs tests to ensure the code is reliable. After successful testing, it builds a Docker image of the app and pushes it to Docker Hub for consistent and portable deployments. Docker Hub credentials are safely managed through GitHub Secrets. This setup makes development easier by automating the build, test, and containerization processes. It provides a solid base for continuous integration and deployment.
+
