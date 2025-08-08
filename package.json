@@ -1,13 +1,6 @@
 {
-  "name": "nodejs-demo-app",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 0"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+    "test": "echo \"No tests yet\" && exit 0",
+    "start": "node app.js"
+  }
 }
